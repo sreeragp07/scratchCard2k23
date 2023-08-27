@@ -6,23 +6,26 @@
 
 body {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background: #eee;
 }
 
 #container {
-  width: inherit;
-  height: inherit;
+  width: 1116px;
+  height: 1116px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #eee;
+  
 }
 
 #card {
-  width: 400px;
-  height: 450px;
+  width: 1116px;
+  height: 1116px;
   position: relative;
   user-select: none;
+  background-image: url("Images/better-luck1.jpg");
 }
 
 img,
@@ -30,6 +33,4 @@ canvas {
   border-radius: 10px;
 }
 
-#card:active {
-  transform: scale(1.05);
-}
+
