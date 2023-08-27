@@ -1,48 +1,35 @@
-.{
-    margin: 0;
-    padding : 0;
-    box-sizing: border-box;
- }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
- body{
-    width: 100%;
-    height :100%;
-    background: #eee;
- }
+body {
+  width: 100%;
+  height: 100vh;
+  background: #eee;
+}
 
- #container{
-    width: 871px;
-    height :656px;
-    display: flex;
-    margin-left: 550px;
-    margin-top: 20px;
-    justify-content: center;
-    background-image: url("images/sam2.jpg");
+#container {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
- }
-  #card{
-    width :56px;
-    height : 51px;
-   margin-top: 365px;
-   margin-right: 430px;
-   user-select: none;
+#card {
+  width: 400px;
+  height: 450px;
+  position: relative;
+  user-select: none;
+}
 
-  }
+img,
+canvas {
+  border-radius: 10px;
+}
 
-  img,canvas{
-    border-radius: 0px;
-
-    
-  }
-
-  #card:active{
-    transform: scale(1.05);
-  }
-
-  #red-box{
-    width:90%;
-    height :90%;
-    margin-left: 75px;
-    margin-top: 101px;
-
-  }
+#card:active {
+  transform: scale(1.05);
+}
